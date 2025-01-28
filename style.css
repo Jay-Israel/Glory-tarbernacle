@@ -1,0 +1,324 @@
+body{
+    /* background-color: rgb(195, 238, 238); */
+}
+*{
+    padding:0%;
+    margin: 0px;
+}
+#container{
+    /* background-color:rgba(2, 2, 61, 0.349); */
+    /* width:1290px; */
+    height: 100%;
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* rgb(1, 30, 41) */
+}
+
+header{
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+    border-bottom: 4px solid rgb(0, 174, 255);
+    display: flex;
+    border-bottom-left-radius:4rem;
+    border-bottom-right-radius: 4rem;
+    justify-content: space-evenly;
+    position: fixed;
+    top:0px;
+    width: 100%;
+    
+}
+
+
+.abs{
+    /* background-color: aliceblue; */
+    width: 40%;
+    height: 100px;
+    padding: 12px;
+}
+.babs{
+    /* background-color: aqua; */
+    height:100px;
+    width: 40%;
+    padding:5px;
+    margin-top: -20px;    
+}
+img{
+    width: 200px;
+    margin-top:-50px;
+}
+main{
+    height: 600px;
+    padding: 20px;
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+}
+.blood{
+    background-image: url("Images/love.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    height: 600px;
+    margin-left:10px;
+    margin-right: 20px;
+}
+aside{
+    padding: 12px;
+    display: flex;
+    height: 220px;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.938);
+    height: 590px;
+    /* margin-left: 40px; */
+    /* margin-right: 40px; */
+    margin-top: 10px;
+    padding: 20px;
+    justify-content: space-between;
+}
+.foot{
+    display: flex;
+}
+
+ul{
+    margin-left: 30px;
+    margin-top: 70px;
+}
+li{
+    list-style: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    /* font-weight: bold; */
+    display: inline;
+    margin-left: 20px;
+    
+}
+a{
+    text-decoration: none;
+    color: aqua;
+}
+a:hover{
+    color: orange;
+    font-size: larger;
+    text-shadow: 2px 1cap 1px;
+    transition: 0.5s;
+}
+video{
+    width: 600px;
+    height:300px;
+    margin-top: 65px;
+}
+.note{
+    /* background-color: blue; */
+    margin-top: 105px;
+    width: 50%;
+    height: 450px;
+    margin-left: 50px;
+    border-bottom: 1px solid grey;
+    padding: 15px;   
+}
+.video{
+    margin-top: 160px;
+    width: 50%;
+    height:435px;
+    border-radius: 4rem;
+    /* border-bottom: 1px solid grey */
+}
+ h1{
+    margin-top: 70px;
+    font-size: 50px;
+    font-family: Verdana;
+    text-shadow: 1px 1px 1px;
+    
+
+ }
+ sub{
+    margin-left: 40px;
+    margin-top:40px;
+    font-size: 17px;
+    font-weight: 400;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+ h2{
+    margin-top: 5px;
+    font-size: 30px;
+ }
+p{
+    margin-top: 20px;
+    font-size: 22.3px;
+    margin-right:20px;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+h3{
+    margin-top: 40px;
+    margin-left: 50px;
+    font-family: pristina;
+    font-size: 30px;
+    text-shadow: 1px 1px 3px;
+    
+}
+#g{
+    margin-left: 60px;
+}
+input{
+    width: 7cm;
+    padding: 3px;
+    border-top: none;
+    border-radius: 3rem;
+    border-bottom-left-radius: 2px solid orange;
+    /* background-color:rgb(84, 84, 202) ; */
+}
+button{
+    width: 3.5cm;
+    margin-top: 15px;
+    margin-left:130px;
+    padding:12px;
+    background-image:linear-gradient(rgba(255, 166, 0, 0.438),rgb(0, 128, 128));
+    border-radius: 0.7rem;
+    border: none;
+    color: white;
+    box-shadow: 5px 2px 5px rgb(2, 2, 62);
+
+}
+button:hover{
+    background-image:linear-gradient(rgb(0, 128, 128)rgba(255, 166, 0, 0.438));
+}
+.as{
+    
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 400px;
+    width: 300px;
+    /* background-color: blue; */
+}
+.bs{
+    
+    margin-top: 50px;
+    margin-left: 120px;
+    height: 400px;
+    width: 300px;
+    /* background-color: rgba(255, 0, 0, 0.664); */
+}
+.cs{
+    
+    margin-top: 40px;
+    margin-left: 100px;
+    height: 400px;
+    width: 300px;
+    /* background-color: rgba(0, 128, 0, 0.644); */
+}
+#lo{
+    font-size:20px;
+    font-weight: 400;
+    margin-left: 70px;
+    color:white;
+}
+#lol{
+    font-size:25.2px;
+    font-weight: 400;
+    margin-left: 200px;
+    color:white;
+    
+}
+.social{
+    
+   margin-top:200px;
+   display: flex;
+   justify-content: space-between;
+
+}
+span{
+    color:white;
+    margin-left:px;
+    font-size: 14px;
+}
+
+dd{
+    font-size:17px;
+    margin-left:65px;
+    line-height:25px;
+    color:white;
+    margin-top:9px;
+}
+
+.foot-cov{
+    background-image: url("Images/projec.jpg");
+    background-size:70%;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+.pic{
+    background-image: url("Images/love.jpg");
+    width: 500px;
+}
+.g{
+    background-color: rgba(0, 0, 0, 0.685);
+    width:300px;
+    height: 230px;
+}
+.e{
+    background-image: url("Images/ilove.jpg");
+    background-size:cover;
+    background-position:center;
+    width:300px;
+    height: 230px;
+
+}
+.y{
+    background-image: url("Images/love.jpg");
+    background-size:cover;
+    background-position: center;
+    width:300px;
+    height: 230px;
+
+}
+.u{
+    background-image: url("Images/smile.jpg");
+    background-size:cover;
+    background-position: center;
+    width:300px;
+    height: 230px;
+
+}
+
+h5{
+    font-size: 29px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    margin-left: 40px;
+    
+}
+#nod{
+    margin-left: 90px;
+    /* margin-top: 50px; */
+}
+.last{
+    margin-top: 70px;
+    margin-left: 50px;
+    /* background-color:yellow; */
+    height: 40px;
+    margin-left: 500px;
+    margin-right: 500px;
+    color: white;
+}
+#copy{
+    font-size: 15px;
+    margin-left: 100px;
+    
+}
+#w{
+margin-left: 100px;
+}
+#i{
+    margin-left: 100px;
+}
+#y{
+    margin-left: 80px;
+}
+#f{
+    margin-left: 30px;
+}
+
+
